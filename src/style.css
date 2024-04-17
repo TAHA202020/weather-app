@@ -1,0 +1,16 @@
+.input-container
+{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.suggestions
+{
+    background-color: white;
+    text-wrap: wrap;
+    max-width: 100%;
+    cursor: pointer;
+}
