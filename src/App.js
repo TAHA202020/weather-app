@@ -9,7 +9,7 @@ function App() {
   const [controller,setController] =useState(null)
   const getWeather=(cords)=>
   {
-    fetch(`https://api.weatherapi.com/v1/current.json?key=11f36e9c37d0482b811164438241704&q=${cords[0]},${cords[1]}`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=${process.env.REACT_APP_WEATHER_API_KEY}&q=${cords[0]},${cords[1]}`)
     .then(response=>response.json())
     .then(data=>
       {
