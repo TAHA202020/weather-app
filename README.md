@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a simple weather application built with React.js that allows users to check the current weather conditions of any location. It utilizes the [OpenWeatherMap API](https://openweathermap.org/api) to fetch weather data based on the user's input.
+This is a simple weather application built with React.js that allows users to check the current weather conditions of any location. It utilizes the [WeatherAPI](https://www.weatherapi.com/) to fetch weather data based on the user's input.
 
 ## Features
 
