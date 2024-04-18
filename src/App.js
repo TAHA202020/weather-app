@@ -47,7 +47,7 @@ function App() {
   return (<div style={{width:"100vw",height:"100vh",overflow:"hidden"}}>
     <div className="input-container">
       <div className="input">
-        <input placeholder="Enter city" onFocus={()=>{setShowSuggestions(true)}} onBlur={()=>{setShowSuggestions(false)}} onChange={(e)=>getSuggestions(e)}/>
+        <input placeholder="Enter city" className="input" onFocus={()=>{setShowSuggestions(true)}} onBlur={()=>{setShowSuggestions(false)}} onChange={(e)=>getSuggestions(e)}/>
         {(showSuggestions && Suggestions.map((value)=><div key={value.id} className="suggestions" onMouseDown={()=>{
           setShowCard(false)
           CenterandGetWeather([value.lat,value.lon])

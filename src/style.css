@@ -13,12 +13,66 @@
     text-wrap: wrap;
     max-width: 100%;
     cursor: pointer;
+    padding: 10px;
+    
 }
 .info-card
 {
+    width: 300px;
     position: absolute;
     bottom: 0;
     left: 0;
     z-index: 10;
-    background-color: red;
+    background-color: white;
+    padding: 10px;
+}
+.icon-text
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.icon-temp
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.other-info
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icons
+{
+    width: 35px;
+}
+.info
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 1px solid black;
+    width: 100%;
+}
+.noleft-border
+{
+    border: 0 !important;
+}
+.input
+{
+    outline: none;
+    border: 0;
+    width: 50%;
+    height: 30px;
+    padding-left: 5px;
+}
+
+.suggestions:hover
+{
+
+    background-color: rgb(238, 238, 238);
 }
