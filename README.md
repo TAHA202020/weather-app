@@ -35,8 +35,9 @@ This is a simple weather application built with React.js that allows users to ch
     ```
 6. **It Should Look Like This :**
 
-
-![gif-explain](https://github.com/TAHA202020/weather-app/assets/73696868/a9726081-0e38-4689-8286-5cb18c2887e4)
+<p align="center">
+  <img src="https://github.com/TAHA202020/weather-app/assets/73696868/a9726081-0e38-4689-8286-5cb18c2887e4" alt="gif-explain">
+</p>
 
 
 ## Usage
